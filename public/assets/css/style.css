@@ -1,0 +1,232 @@
+/* ========== Import Google Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+
+/* ========== CSS Variables ========== */
+:root {
+  --color-primary:   #0055a5;   /* Deep blue accent */
+  --color-accent:    #ffc627;   /* Bright gold accent */
+  --color-bg:        #fffce9;   /* Page background */
+  --color-text:      #333333;   /* Body text */
+  --color-heading:   #222222;   /* Headings */
+  --spacing:         1.5rem;    /* Base spacing */
+  --max-width:       1200px;    /* Content max-width */
+}
+
+/* ========== Reset & Global Styles ========== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-heading);
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--color-accent);
+}
+
+/* ========== Utility Container ========== */
+.container {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--spacing) 0;
+}
+
+/* ========== Header & Navigation ========== */
+.site-header {
+  background: var(--color-bg);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.main-nav {
+  display: flex;
+  gap: var(--spacing);
+}
+.main-nav a {
+  padding: 0.5rem 0.75rem;
+}
+.main-nav a:hover {
+  color: var(--color-accent);
+}
+.btn-cta {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btn-cta:hover {
+  background-color: var(--color-accent);
+  color: var(--color-heading);
+}
+
+/* ========== Hero Section ========== */
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--spacing);
+  padding: calc(var(--spacing) * 2) 0;
+}
+#hero .hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+#hero .hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-heading);
+}
+
+/* ========== Page Sections ========== */
+section {
+  padding: calc(var(--spacing) * 2) 0;
+}
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* ========== Experience ========== */
+#experience .job {
+  margin-bottom: var(--spacing);
+}
+#experience .job h3 {
+  font-size: 1.25rem;
+}
+#experience .job .date {
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+/* ========== Skills Grid ========== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--spacing);
+  list-style: none;
+}
+.skills-grid li {
+  background: #f9f9f9;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* ========== Project Cards ========== */
+.project-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: var(--spacing);
+}
+.project-card h3 {
+  margin-bottom: 0.5rem;
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* ========== Contact Form ========== */
+#contact form {
+  display: grid;
+  gap: var(--spacing);
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+#contact button {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#contact button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-heading);
+}
+
+/* ========== Footer ========== */
+.site-footer {
+  background: var(--color-bg);
+  padding: var(--spacing) 0;
+  border-top: 1px solid #eaeaea;
+}
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-links {
+  display: flex;
+  gap: var(--spacing);
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  #hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .main-nav {
+    display: none; /* You can add a mobile menu later */
+  }
+}
