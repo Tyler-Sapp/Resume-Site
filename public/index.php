@@ -43,7 +43,29 @@
         in diverse responsibilities. </p>
     <p> • Oversaw the training and onboarding of new pharmacy technicians, ensuring compliance with
         established protocols and procedures. </p>
-        
+    <p> • Applied extensive experience in IV room protocols, ensuring adherence to PPE standards and
+        maintaining a sterile environment.   </p>
+    <p> • Utilized and optimized the functionality of Cerner, EPIC, and Pyxis systems through targeted training
+        and practical application. </p>
+    <p> • Executed complex drug compounding and batching processes, ensuring accuracy and efficiency. </p>
+    <p> • Specialized in the compounding of hazardous, chemotherapy, and investigational drugs, maintaining
+        compliance with regulatory standards. </p>
+    <p> • Prepared total parenteral nutrition (TPN) with precision, adhering to stringent safety and quality
+        standards. </p>
+    <p> • Facilitated effective communication and collaboration with nursing and provider staff to support patient
+        care. </p> 
+    <p> • Collaborated directly with pharmacists across multiple satellite pharmacy locations to ensure seamless
+        medication management.</p>
+    <p> • Administered narcotic vault procedures and managed inventory to ensure secure handling and accurate
+        record-keeping.</p>
+    <p> • Instructed and mentored new staff members, fostering their development and integration into pharmacy
+        roles.</p>
+    <p> • Adapted to staffing needs by covering additional shifts, demonstrating flexibility and commitment to
+        team success.</p>
+    <p> • Enforced safety protocols and ensured strict adherence to HIPAA guidelines to maintain patient
+        confidentiality and compliance.</p>
+    <p> • Operated efficiently in high-pressure environments, particularly on critical care floors, to support patient
+        care and safety.</p>
   </div>
     <div class="job">
     <h3>Certified Pharmacy Technician III</h3>

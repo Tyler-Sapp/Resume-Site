@@ -1,10 +1,11 @@
 /* ========== Import Google Fonts ========== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* ========== CSS Variables ========== */
 :root {
-  --color-primary:   #0055a5;   /* Deep blue accent */
-  --color-accent:    #ffc627;   /* Bright gold accent */
+  --color-primary:   #830057;   /* Deep blue accent */
+  --color-accent:    #5fd0e7;   /* Bright gold accent */
   --color-bg:        #fffce9;   /* Page background */
   --color-text:      #333333;   /* Body text */
   --color-heading:   #222222;   /* Headings */
