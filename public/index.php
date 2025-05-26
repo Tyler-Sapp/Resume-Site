@@ -34,7 +34,7 @@
 </section>
 
 <section id="experience">
-  <h2>Experience</h2>
+  <h2>Work Experience</h2>
   <div class="job">
     <h3>Senior Certified Pharmacy Technician III</h3>
     <span class="date">2015 – Present</span>
