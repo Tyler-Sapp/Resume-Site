@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  <div id="particle-bg"></div>
   <header class="site-header">
     <div class="container">
       <a href="/" class="logo" style="font-family: 'Times New Roman', cursive; font-size: 2.5rem;">Tyler Sapp</a> 
       <nav class="main-nav">
         <a href="#about">About</a>
-        <a href="#experience">Work Experience</a>
+        <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
+        <a href="#coursework">Coursework</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
         <a class="btn-cta" href="/resume.pdf" download>Download Resume</a>

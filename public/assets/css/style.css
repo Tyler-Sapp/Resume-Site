@@ -4,11 +4,11 @@
 
 /* ========== CSS Variables ========== */
 :root {
-  --color-primary:   #830057;   /* Deep blue accent */
-  --color-accent:    #5fd0e7;   /* Bright gold accent */
-  --color-bg:        #fffce9;   /* Page background */
-  --color-text:      #333333;   /* Body text */
-  --color-heading:   #222222;   /* Headings */
+  --color-primary:   #c19a00;   /* Deep Gold accent */
+  --color-accent:    #eadd29;   /* Bright gold accent */
+  --color-bg:        #111111;   /* Page background */
+  --color-text:      #ffffff;   /* Body text */
+  --color-heading:   #dedfb3;   /* Headings */
   --spacing:         1.5rem;    /* Base spacing */
   --max-width:       1200px;    /* Content max-width */
 }
@@ -42,6 +42,15 @@ a {
 a:hover {
   color: var(--color-accent);
 }
+/* ========== Particle Background ========== */
+#particle-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: var(--color-bg); /* fallback */
+}
 
 /* ========== Utility Container ========== */
 .container {
@@ -54,7 +63,7 @@ a:hover {
 /* ========== Header & Navigation ========== */
 .site-header {
   background: var(--color-bg);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(255, 218, 84, 0.496);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -150,18 +159,74 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: var(--spacing);
   list-style: none;
+  overflow: visible;
 }
 .skills-grid li {
-  background: #f9f9f9;
+  background: #3d3939;
   padding: 0.75rem 1rem;
   text-align: center;
   border-radius: 4px;
   font-weight: 500;
+  overflow: visible;
+}
+
+/* make each li a relatively-positioned container */
+.grid-item {
+  position: relative;
+  background: #3d3939;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: default;
+  transition: transform 0.2s ease;
+  overflow: visible;
+}
+
+/* optional “pop” on hover */
+.grid-item:hover {
+  transform: translateY(-4px);
+}
+
+/* the hidden tooltip box */
+.grid-item .tooltip {
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  left: 70%;
+  transform: translateX(-50%);
+  background: rgba(164, 147, 60, 0.953);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  white-space: normal;      /* allow wrapping */
+  width: min(80vw, 400px); /* responsive width */
+  max-width: 400px;        /* limit width */
+  word-wrap: break-word;    
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 10;
+}
+
+/* arrow below tooltip */
+.grid-item .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;  /* at bottom of tooltip */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.85) transparent transparent transparent;
+}
+
+.grid-item:hover .tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-0.25rem);
 }
 
 /* ========== Project Cards ========== */
 .project-card {
-  background: #f9f9f9;
+  background: #414141;
   padding: 1rem;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
