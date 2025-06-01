@@ -309,7 +309,7 @@
 
 <section id="contact">
   <h2>Get in Touch</h2>
-  <form action="/src/contact.php" method="POST">
+  <form action="/contact.php" method="POST">
     <input name="name" placeholder="Your Name" required>
     <input name="email" type="email" placeholder="Email" required>
     <textarea name="message" placeholder="How can I help?" required></textarea>
