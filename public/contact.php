@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <link rel="stylesheet" href="/assets/css/style.css">
             </head>
             <body>
-              <?php include __DIR__ . '/../src/header.php'; ?>
+              <?php include __DIR__ . '/src/header.php'; ?>
 
               <div class="container">
                 <section id="thank-you">
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </section>
               </div>
 
-              <?php include __DIR__ . '/../src/footer.php'; ?>
+              <?php include __DIR__ . '/src/footer.php'; ?>
             </body>
             </html>
             <?php
@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <?php include __DIR__ . '/../src/header.php'; ?>
+  <?php include __DIR__ . '/src/header.php'; ?>
 
   <div class="container">
     <section id="contact-error">
@@ -98,6 +98,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </section>
   </div>
 
-  <?php include __DIR__ . '/../src/footer.php'; ?>
+  <?php include __DIR__ . '/src/footer.php'; ?>
 </body>
 </html>
