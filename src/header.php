@@ -18,7 +18,8 @@
         <a href="#coursework">Coursework</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a class="btn-cta" href="/resume.pdf" download>Download Resume</a>
+        <a class="btn-cta" href="/resume.pdf" download>Resume</a>
+        <a class="btn-cta" href="/CV 2025.pdf" download>CV</a>
         <a href="https://github.com/tyler-sapp" target="_blank" class="icon-link github-link" aria-label="GitHub">
           <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M8 .198a8 8 0 0 0-2.53 15.59c.4.074.547-.174.547-.386 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.363-.923-.886-1.168-.886-1.168-.725-.496.055-.486.055-.486.803.056 1.226.825 1.226.825.713 1.22 1.872.868 2.329.664.072-.517.279-.868.507-1.068-1.776-.202-3.644-.888-3.644-3.952 0-.873.312-1.588.824-2.148-.083-.203-.357-1.017.078-2.12 0 0 .672-.215 2.2.82a7.65 7.65 0 0 1 2-.27c.68.003 1.366.092 2 .27 1.527-1.035 2.198-.82 2.198-.82.437 1.104.163 1.918.08 2.12.513.56.823 1.275.823 2.148 0 3.073-1.87 3.748-3.65 3.947.287.247.543.735.543 1.482 0 1.07-.01 1.933-.01 2.194 0 .214.145.463.55.385A8.002 8.002 0 0 0 8 .197z"/>
