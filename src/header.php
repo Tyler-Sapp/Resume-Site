@@ -18,7 +18,7 @@
         <a href="/index.php#coursework">Coursework</a>
         <a href="/index.php#projects">Projects</a>
         <a href="/index.php#contact">Contact</a>
-        <a class="btn-cta" href="/resume.pdf" download>Resume</a>
+        <a class="btn-cta" href="/Tyler Sapp - Resume.pdf" download>Resume</a>
         <a class="btn-cta" href="/CV 2025.pdf" download>CV</a>
         <a href="https://github.com/tyler-sapp" target="_blank" class="icon-link github-link" aria-label="GitHub">
           <svg height="24" width="24" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
