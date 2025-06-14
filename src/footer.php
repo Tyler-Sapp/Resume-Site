@@ -42,6 +42,30 @@
     retina_detect: true
   });
 </script>
+<script>
+  (function(){
+    let lastScroll = 0;
+    const header = document.querySelector('.site-header');
+
+    window.addEventListener('scroll', () => {
+      const current = window.pageYOffset;
+      if (current <= 0) {
+        header.classList.remove('hidden');
+        return;
+      }
+
+      if (current > lastScroll && !header.classList.contains('hidden')) {
+        // Scrolling down
+        header.classList.add('hidden');
+      }
+      else if (current < lastScroll && header.classList.contains('hidden')) {
+        // Scrolling up
+        header.classList.remove('hidden');
+      }
+      lastScroll = current;
+    });
+  })();
+</script>
 
 </body>
 </html>

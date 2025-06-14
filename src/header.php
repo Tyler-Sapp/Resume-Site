@@ -12,12 +12,12 @@
     <div class="container">
       <a href="/" class="logo" style="font-family: 'Times New Roman', cursive; font-size: 2.5rem;">Tyler Sapp</a> 
       <nav class="main-nav">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#coursework">Coursework</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="/index.php#about">About</a>
+        <a href="/index.php#experience">Experience</a>
+        <a href="/index.php#skills">Skills</a>
+        <a href="/index.php#coursework">Coursework</a>
+        <a href="/index.php#projects">Projects</a>
+        <a href="/index.php#contact">Contact</a>
         <a class="btn-cta" href="/resume.pdf" download>Resume</a>
         <a class="btn-cta" href="/CV 2025.pdf" download>CV</a>
         <a href="https://github.com/tyler-sapp" target="_blank" class="icon-link github-link" aria-label="GitHub">
@@ -33,3 +33,4 @@
       </nav>
     </div>
   </header>
+  

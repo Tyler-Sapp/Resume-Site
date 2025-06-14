@@ -3,11 +3,19 @@
 <div class="container">
   <section id="hero">
     <div class="hero-image">
-      <img 
-        src="/assets/images/headshot.jpg" 
-        alt="Tyler Sapp" 
-        class="profile-pic"
-      >
+      <a href="/gallery.php">
+        <img 
+          src="/assets/images/headshot.jpg" 
+          alt="Tyler Sapp" 
+          class="profile-pic"
+          style="max-width: 360px; height: auto; box-shadow: 0 4px 8px rgba(255, 251, 251, 0.85); transition: box-shadow 0.3s;"
+        >
+      </a>
+      <style>
+        .profile-pic:hover {
+          box-shadow: 0 4px 16px rgba(255, 225, 77, 0.85);
+        }
+      </style>
     </div>
     <div class="hero-content">
       <h1>Hi, I’m Tyler Sapp</h1>
@@ -20,16 +28,17 @@
   <p>
     I have a B.S. in Bioinformatics with a minor in Computer Science from VCU.
     I love working with data and coding to solve real-world problems.
-    My experience includes schoolwork in acquiring my degree, where I
+    My experience includes courses in pursuit of my degree, where I
     developed a strong understanding of coding languages and data management,
     working on projects with large-scale data sets, and creating reports and webpages
     to visualize and analyze data.
-    I have a solid foundation in programming and biological data analysis, and I
-    am always eager to learn new skills and technologies. I thrive in collaborative
+    Outside of academics, I also have 10+ years of experience as a pharmacy technician,
+    where I gained expertise in sterile compounding, IV preparation, and environmental monitoring
+    among several other disciplines. 
+    I am always eager to learn new skills, concepts and technologies to add to my repetoire
+    alongside my current skills in biological data science and programming. I thrive in collaborative
     environments and enjoy working with cross-functional teams to achieve common goals.
     I specialize in PHP, SQL, Python, Java, Docker, R, and data visualization.
-    Outside of academics, I have over 10 years of experience as a pharmacy technician,
-    where I honed my skills in data management, regulatory compliance, and patient care.
     I love reading, gaming, exercising and exploring new passions and hobbies in my free time.
   </p>
 </section>
